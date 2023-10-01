@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Murach</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <form action="Info" method="post">
+            <img src="img/anh.jpg" width="100" alt="alt"/>
+            <div class="title">Survey</div>
+            <p>If you have a moment, we'd appreciate it if you would fill out this survey</p>
+            <div class="title">Your information:</div>
+            <table>
+                <tr>
+                    <td><b>First Name</b></td>
+                    <td><input type="text" name="first" ></td> 
+                </tr>
+                <tr>
+                    <td><b>Last name</b></td>
+                    <td><input type="text" name="last" ></td> 
+                </tr>
+                <tr>
+                    <td><b>Email</b></td>
+                    <td><input type="text" name="email" ></td> 
+                </tr>
+                <tr>
+                    <td><b>Date of Birth<b/></td>
+                    <td><input type="date" name="dob" ></td> 
+                </tr>
+            </table>
+            <div class="title"> How did you hear about us?</div>
+            <input type="radio" name="hear" value="Search engine" >Search engine
+            <input type="radio" name="hear" value="Word of mouth" >Word of mouth
+            <input type="radio" name="hear" value="Social Media">Social Media
+            <input type="radio" name="hear" value="Other"   >Other
+
+            <div class="title">Would you like to receive announcements about new CDs and special offers?</div>
+            <div class="checkboxs">
+                <input  type="checkbox" name="yes"  >YES, I'd like that 
+            </div>
+            <div class="checkboxs">
+                <input  type="checkbox" name="yes1" >YES, please send me email announcements
+            </div>
+            Please contact me by:
+            <select name="email1">  
+                <option>Email or postal mail</option>
+                <option>demo@gmail.com</option>
+            </select>
+            <br>
+            <div class="submit">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+
+
+    </body>
+
+</html>

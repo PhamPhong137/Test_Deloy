@@ -1,0 +1,28 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Sep 29, 2023, 8:03:25 AM
+    Author     : PC-Phong
+*/
+
+
+body{   
+    margin-left: 50px;
+}
+.title{
+    color: #25b792;
+    font-size:25px;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+table tr td b{
+    padding: 10px 10px 10px 0px;
+}
+.checkboxs{
+    padding: 10px 0px;
+}
+.submit{
+    padding-top: 10px;
+}
